@@ -4,7 +4,6 @@ library(MASS)
 library(openxlsx)
 library(rTensor)
 
-setwd("C:/Users/USTC/Desktop/ScienceWork/CityU/SVM/Tensor ADMM/code_github")
 source('src/functions.R')
 
 ##### initialization ###########################################################
