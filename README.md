@@ -44,7 +44,7 @@ This project contains two folders: `results` and `src`.
 
 ## Results
 
-The numerical experiment results are available in the `results` folder, which includes Figures 1-7 in the article. Here, [Figure 1](results/images/Figure1.eps) illustrates the decentralized network used in the numerical simulations, and others show the results of our ADMM-based algorithm under various data settings, including variations in dimension, sample size, regularization parameters, and more; for further details, see Section 5 of the paper.
+The numerical experiment results are available in the `results` folder, which includes Figures 1-8 in the article. Here, [Figure 1](results/images/Figure1.eps) illustrates the decentralized network used in the numerical simulations, and others show the results of our ADMM-based algorithm under various data settings, including variations in dimension, sample size, regularization parameters, and more; for further details, see Section 5 of the paper.
 
 ## Replicating
 
@@ -55,4 +55,6 @@ Specifically, to replicate the results in [Figure 2](results/images/Figure2.eps)
 To replicate the results in [Figure 4](results/images/Figure4.eps), please run `src/STM_process.R` with `rho_all <- 0.5` and `c_all <- c(10,50,100,500,1000,1)`. And please run the same file  with `rho_all <- c(0.001,0.01,0.1,0.5,1,1.5)` and `c_all <- 10` to replicate the results in [Figure 5](results/images/Figure5.eps).
 
 Without changing any setting, running `src/STM_n_toall.R` directly reproduces the results shown in [Figure 6](results/images/Figure6.eps), while running `src/STM_m_toall.R` directly reproduces the results shown in [Figure 7](results/images/Figure7.eps).
+
+Please run `src/STM_1_toall.R`, `src/STM_3_toall.R`, `src/DLM_0_toall.R`, and `src/DLM_1_toall.R`; this will generate results MDA(1), MDA(3), DLM(0), and DLM(1), respectively. To generate [Figure 8](results/images/Figure10.eps), you will also need to run `src\compare_plot.R`.
 
