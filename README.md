@@ -39,7 +39,7 @@ This repository provides R code for an efficient ADMM-based algorithm presented 
 This project contains two folders: `results` and `src`.
 
 <!-- - `data`: This folder includes the data used in the paper.-->
-- `src`: This folder contains the source code for the simulations and two empirical applications.
+- `src`: This folder contains the source code for the simulations.
 - `results`: This folder contains the results of the experiments.
 
 ## Results

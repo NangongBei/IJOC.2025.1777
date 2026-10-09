@@ -8,7 +8,6 @@ library(patchwork)
 library(igraph)
 library(ggraph)
 
-setwd("C:/Users/USTC/Desktop/ScienceWork/CityU/SVM/Tensor ADMM/code_github")
 
 get_legend <- function(plot) {
   tmp <- ggplot_gtable(ggplot_build(plot))
